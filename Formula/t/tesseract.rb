@@ -31,6 +31,8 @@ class Tesseract < Formula
   depends_on "libarchive"
   depends_on "pango"
 
+  uses_from_macos "curl"
+
   fails_with gcc: "5"
 
   resource "eng" do
